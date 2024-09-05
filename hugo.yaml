@@ -2,7 +2,7 @@ baseURL: "https://dada325.github.io/dadaBlog/"
 languageCode: en-us
 title: My New Hugo Site
 theme: PaperMod
-paginate: 5
+paginate: 20
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -15,10 +15,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: My Awesome Blog
+  description: "This is an awesome blog about tech and programming."
+  keywords: [Blog, Portfolio]
+  author: Wenda Zheng
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -72,16 +72,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Math, Compute, Bio\U0001F44B"
     Content: Welcome to my blog
 
   socialIcons:
     - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://x.com/Dada_325"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/dada325"
 
   analytics:
     google:
