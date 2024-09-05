@@ -24,10 +24,10 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.112.4" # Specify the required version here
+          hugo-version: "latest" # Use 'latest' to always get the latest version
 
       - name: Build
-        run: ${RUNNER_TEMP}/hugo
+        run: hugo
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
