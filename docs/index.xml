@@ -4,6 +4,11 @@
     <title>Docs on My New Hugo Site</title>
     <link>https://dada325.github.io/dadaBlog/docs/</link>
     <description>Recent content in Docs on My New Hugo Site</description>
+    <image>
+      <title>My New Hugo Site</title>
+      <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.134.1</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Sep 2024 03:41:35 +0800</lastBuildDate>
