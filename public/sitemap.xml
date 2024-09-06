@@ -5,7 +5,7 @@
     <loc>http://localhost:1313/dadaBlog/posts/bioparse-review/</loc>
     <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/dadaBlog/tags/first/</loc>
+    <loc>http://localhost:1313/dadaBlog/tags/llm/</loc>
     <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/</loc>
@@ -16,27 +16,6 @@
   </url><url>
     <loc>http://localhost:1313/dadaBlog/tags/</loc>
     <lastmod>2024-09-06T12:54:20+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/posts/yet-another-post/</loc>
-    <lastmod>2024-09-06T09:22:11+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/posts/my-first-post/</loc>
-    <lastmod>2024-09-06T09:20:20+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/docs/</loc>
-    <lastmod>2024-09-06T03:41:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/docs/test/</loc>
-    <lastmod>2024-09-06T03:41:35+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/tags/ai/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/posts/newtemplatepost/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/tags/llms/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/archive/</loc>
   </url><url>

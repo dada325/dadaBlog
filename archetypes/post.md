@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "{{ .Summary }}"
+description: "{{ .Name | humanize }}"
 canonicalURL: "{{ .Site.BaseURL }}{{ .File.ContentBaseName }}"
 disableHLJS: true # to disable highlightjs
 disableShare: false

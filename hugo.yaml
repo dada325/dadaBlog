@@ -2,8 +2,9 @@ baseURL: "https://dada325.github.io/dadaBlog/"
 languageCode: en-us
 title: Math, Bio, Programming
 theme: PaperMod
+
 pagination:
-  pagerSize: 15
+  pagerSize: 200
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -20,7 +21,6 @@ params:
   description: "This is an awesome blog about tech and programming."
   keywords: [Blog, Portfolio]
   author: Wenda Zheng
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -45,10 +45,10 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "static/favicon.ico"
-    favicon16x16: "static/favicon-16x16.png"
-    favicon32x32: "static/favicon-32x32.png"
-    apple_touch_icon: "static/apple-touch-icon.png"
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   label:
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Math, Compute, Bio\U0001F44B"
-    Content: Major
+    Title: "Math, Compute, Bio\U0001F3C2"
+    Content: About me, My name's Wenda,  I am a ETH zürich student marjor in Computer Science and interested in Math and Bio stuff.
 
   socialIcons:
     - name: x
