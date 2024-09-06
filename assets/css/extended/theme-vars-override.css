@@ -8,6 +8,7 @@
   --hljs-bg: #f7c4cd;
   --code-bg: #f7c4cd;
   --border: #241f83;
+  --hover: #e6a6b3;
 }
 
 .dark {
@@ -20,55 +21,45 @@
   --hljs-bg: #241f83;
   --code-bg: #241f83;
   --border: #f7c4cd;
+  --hover: #1a165e;
 }
 
 body {
   background-color: var(--theme);
   color: var(--primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
 }
 
-.post-content {
-  color: var(--content);
-}
-
-a {
-  color: var(--primary);
-}
-
-.entry-header h2 {
-  color: var(--primary);
-}
-
-.entry-content {
-  color: var(--content);
-}
-
-.post-meta {
-  color: var(--secondary);
-}
-
-code {
-  color: var(--content);
-}
-
-.post-entry {
-  background-color: var(--entry);
-  border-radius: 8px;
+.main {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  margin-bottom: 20px;
 }
 
-.first-entry {
-  background-color: var(--entry);
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
 }
 
-/* Additional styles to match the image */
-.logo a {
-  font-size: 1.5em;
+.site-title {
+  font-size: 2.5em;
   font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
 }
 
 #menu {
@@ -83,13 +74,149 @@ code {
 
 #menu a {
   text-decoration: none;
+  color: var(--primary);
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
+#menu a:hover,
+#menu a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+/* Dark Mode Toggle */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+/* Welcome Message */
+.home-info {
+  background-color: var(--entry);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 2em;
+}
+
+.home-info h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+/* Social Icons */
 .social-icons {
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .social-icons a {
-  margin-right: 10px;
-  font-size: 1.2em;
+  margin-right: 15px;
+  font-size: 1.4em;
+  color: var(--primary);
+  transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
+
+/* Post Entries */
+.post-entry {
+  background-color: var(--entry);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  background-color: var(--hover);
+}
+
+.entry-header h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.entry-content {
+  margin-bottom: 1em;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: var(--secondary);
+  opacity: 0.8;
+}
+.post-tags a:hover,
+.paginav a:hover {
+  background: var(--hover);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #menu {
+    margin-top: 1em;
+  }
+
+  #menu li {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+/* Emoji Integration */
+.emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#menu a:hover {
+  background-color: var(--hover);
+  transition: background-color 0.3s ease;
+}
+
+/* Update social icons hover effect */
+.social-icons a:hover {
+  background-color: var(--hover);
+  transition: background-color 0.3s ease;
+}
+
+/* Add some padding and border-radius to menu items and social icons for better hover effect */
+#menu a,
+.social-icons a {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.archive-entry:hover {
+  background-color: var(--hover); /* Use your hover color variable */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.terms-tags a {
+  display: block;
+  padding: 3px 10px;
+  background: var(--tertiary);
+  border-radius: 6px;
+  transition: transform 0.1s;
+  color: var(--theme);
+}
+
+.terms-tags a:active {
+  background: var(--tertiary);
+  transform: scale(0.96);
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.share-buttons li,
+.share-buttons a :hover {
+  display: inline-flex;
+  transform: translateY(-2px);
 }

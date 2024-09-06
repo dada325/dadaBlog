@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/dadaBlog/posts/bioparse-review/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dadaBlog/tags/first/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/dadaBlog/</loc>
-    <lastmod>2024-09-06T09:22:11+08:00</lastmod>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/posts/</loc>
-    <lastmod>2024-09-06T09:22:11+08:00</lastmod>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dadaBlog/tags/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/posts/yet-another-post/</loc>
     <lastmod>2024-09-06T09:22:11+08:00</lastmod>
@@ -20,12 +29,19 @@
     <loc>http://localhost:1313/dadaBlog/docs/test/</loc>
     <lastmod>2024-09-06T03:41:35+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/dadaBlog/tags/ai/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dadaBlog/posts/newtemplatepost/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dadaBlog/tags/llms/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/dadaBlog/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/dadaBlog/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/dadaBlog/tags/</loc>
   </url>
 </urlset>
