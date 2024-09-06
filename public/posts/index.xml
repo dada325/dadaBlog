@@ -14,32 +14,17 @@
     <lastBuildDate>Fri, 06 Sep 2024 12:54:20 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/dadaBlog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BioParse Review</title>
+      <title>BiomedParse Review</title>
       <link>http://localhost:1313/dadaBlog/posts/bioparse-review/</link>
       <pubDate>Fri, 06 Sep 2024 12:54:20 +0800</pubDate>
       <guid>http://localhost:1313/dadaBlog/posts/bioparse-review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yet Another Post</title>
-      <link>http://localhost:1313/dadaBlog/posts/yet-another-post/</link>
-      <pubDate>Fri, 06 Sep 2024 09:22:11 +0800</pubDate>
-      <guid>http://localhost:1313/dadaBlog/posts/yet-another-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/dadaBlog/posts/my-first-post/</link>
-      <pubDate>Fri, 06 Sep 2024 09:20:20 +0800</pubDate>
-      <guid>http://localhost:1313/dadaBlog/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Extrinsic Hallucinations in LLMs</title>
-      <link>http://localhost:1313/dadaBlog/posts/newtemplatepost/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/dadaBlog/posts/newtemplatepost/</guid>
-      <description>Hallucination in large language models usually refers to the model generating unfaithful, fabricated, inconsistent, or nonsensical content. As a term, hallucination has been somewhat generalized to cases...</description>
+      <description>&lt;h2 id=&#34;biomedparse&#34;&gt;BiomedParse&lt;/h2&gt;
+&lt;p&gt;Here is a comprehensive analysis of the BiomedParse model for biomedical text parsing, based on the research paper you provided:&lt;/p&gt;
+&lt;h2 id=&#34;1-model-selection-and-architecture&#34;&gt;1. Model Selection and Architecture&lt;/h2&gt;
+&lt;p&gt;BiomedParse is a transformer-based language model specifically designed for parsing biomedical text into structured representations. The key architectural choices are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model as the backbone, which has shown strong performance on various natural language processing tasks. BERT is a deep bidirectional transformer that learns contextual word representations by jointly conditioning on both left and right context.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
