@@ -45,14 +45,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
+    favicon: "static/favicon.ico"
+    favicon16x16: "static/favicon-16x16.png"
+    favicon32x32: "static/favicon-32x32.png"
+    apple_touch_icon: "static/apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "DasBlog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -74,7 +74,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Math, Compute, Bio\U0001F44B"
-    Content: Welcome to my blog
+    Content: Major
 
   socialIcons:
     - name: x
@@ -147,3 +147,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
