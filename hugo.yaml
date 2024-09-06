@@ -43,7 +43,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "static/favicon.ico"
     favicon16x16: "static/favicon-16x16.png"
@@ -133,10 +133,7 @@ menu:
       name: FAQ
       url: /faq/
       weight: 50
-    - identifier: emojisearch
-      name: emojisearch.app
-      url: https://emojisearch.app/
-      weight: 60
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
