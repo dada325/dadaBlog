@@ -113,18 +113,30 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: archive
+      name: Archive
+      url: /archive/
       weight: 20
-    - identifier: blog
-      name: example.org
-      url: https://example.org
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: faq
+      name: FAQ
+      url: /faq/
+      weight: 50
+    - identifier: emojisearch
+      name: emojisearch.app
+      url: https://emojisearch.app/
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
