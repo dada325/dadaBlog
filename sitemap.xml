@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dada325.github.io/dadaBlog/posts/bioparse-review/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/first/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
     <loc>https://dada325.github.io/dadaBlog/</loc>
-    <lastmod>2024-09-06T09:22:11+08:00</lastmod>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/</loc>
-    <lastmod>2024-09-06T09:22:11+08:00</lastmod>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/</loc>
+    <lastmod>2024-09-06T12:54:20+08:00</lastmod>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/yet-another-post/</loc>
     <lastmod>2024-09-06T09:22:11+08:00</lastmod>
@@ -20,12 +29,19 @@
     <loc>https://dada325.github.io/dadaBlog/docs/test/</loc>
     <lastmod>2024-09-06T03:41:35+08:00</lastmod>
   </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/ai/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/posts/newtemplatepost/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/llms/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
     <loc>https://dada325.github.io/dadaBlog/archive/</loc>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/categories/</loc>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/search/</loc>
-  </url><url>
-    <loc>https://dada325.github.io/dadaBlog/tags/</loc>
   </url>
 </urlset>
