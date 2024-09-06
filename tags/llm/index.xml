@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Math, Bio, Programming</title>
-    <link>https://dada325.github.io/dadaBlog/</link>
-    <description>Recent content on Math, Bio, Programming</description>
+    <title>LLM on Math, Bio, Programming</title>
+    <link>https://dada325.github.io/dadaBlog/tags/llm/</link>
+    <description>Recent content in LLM on Math, Bio, Programming</description>
     <image>
       <title>Math, Bio, Programming</title>
       <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.134.1</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Sep 2024 12:54:20 +0800</lastBuildDate>
-    <atom:link href="https://dada325.github.io/dadaBlog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dada325.github.io/dadaBlog/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BiomedParse Review</title>
       <link>https://dada325.github.io/dadaBlog/posts/bioparse-review/</link>
@@ -25,14 +25,6 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Using a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model as the backbone, which has shown strong performance on various natural language processing tasks. BERT is a deep bidirectional transformer that learns contextual word representations by jointly conditioning on both left and right context.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>https://dada325.github.io/dadaBlog/docs/test/</link>
-      <pubDate>Fri, 06 Sep 2024 03:41:35 +0800</pubDate>
-      <guid>https://dada325.github.io/dadaBlog/docs/test/</guid>
-      <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
-&lt;p&gt;this is a Test&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
