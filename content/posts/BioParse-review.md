@@ -38,8 +38,6 @@ editPost:
 
 ## BiomedParse
 
-Here is a comprehensive analysis of the BiomedParse model for biomedical text parsing, based on the research paper you provided:
-
 ## 1. Model Selection and Architecture
 
 BiomedParse is a transformer-based language model specifically designed for parsing biomedical text into structured representations. The key architectural choices are:
