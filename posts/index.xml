@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2024 12:54:20 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 14:06:46 +0800</lastBuildDate>
     <atom:link href="https://dada325.github.io/dadaBlog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning, Some Thoughts</title>
+      <link>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</link>
+      <pubDate>Thu, 12 Sep 2024 14:06:46 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</guid>
+      <description>Deep learning, some thoughts</description>
+    </item>
     <item>
       <title>BiomedParse Review</title>
       <link>https://dada325.github.io/dadaBlog/posts/bioparse-review/</link>
