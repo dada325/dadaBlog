@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Sep 2024 14:06:46 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 12:01:06 +0800</lastBuildDate>
     <atom:link href="https://dada325.github.io/dadaBlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm for a Collective Intelligence System</title>
+      <link>https://dada325.github.io/dadaBlog/posts/algorithm-for-a-collective-intelligence-system/</link>
+      <pubDate>Sun, 15 Sep 2024 12:01:06 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/algorithm-for-a-collective-intelligence-system/</guid>
+      <description>Algorithm for a collective intelligence system</description>
+    </item>
     <item>
       <title>Deep Learning, Some Thoughts</title>
       <link>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</link>
