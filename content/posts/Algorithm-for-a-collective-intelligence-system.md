@@ -35,3 +35,19 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+## Algorithm for a Collective Intelligence System
+
+## 1. My personal interest
+
+- Collective Intelligence is always around us. And it is the future of Artificial intelligence. We came from the machine learning era, in which we try to find the pattern in the data. We were trying to see through the surface of things, by the way of analyzing loads of data. Then we are in the era of Deep Learning, maybe one would argue that we are in the post-deep learning era, where we try to find the pattern in the data by learning the data itself.
+
+## 2. The algorithm survey
+
+- In this chapter, we will survey the existing algorithms for the collective intelligence system. We will start from the basic algorithms, and then we will move to the advanced algorithms. We will also discuss the pros and cons of each algorithm. on the journey, we will probably seeing the 
+
+## 3. The algorithm
+
+## 3. The implementation
+
+## 4. The evaluation
