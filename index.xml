@@ -9,7 +9,7 @@
       <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.134.2</generator>
+    <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Sep 2024 12:01:06 +0800</lastBuildDate>
     <atom:link href="https://dada325.github.io/dadaBlog/index.xml" rel="self" type="application/rss+xml" />
@@ -26,6 +26,13 @@
       <pubDate>Thu, 12 Sep 2024 14:06:46 +0800</pubDate>
       <guid>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</guid>
       <description>Deep learning, some thoughts</description>
+    </item>
+    <item>
+      <title>Contextual AI Models for Single Cell Protein Biology</title>
+      <link>https://dada325.github.io/dadaBlog/posts/contextual-ai-models-for-single-cell-protein-biology/</link>
+      <pubDate>Sun, 28 Jul 2024 05:26:29 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/contextual-ai-models-for-single-cell-protein-biology/</guid>
+      <description>Contextual ai models for single cell protein biology</description>
     </item>
     <item>
       <title>BiomedParse Review</title>
