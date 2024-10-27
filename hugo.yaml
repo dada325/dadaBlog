@@ -76,7 +76,8 @@ params:
     Title: "Math, Compute, Bio\U0001F3C2"
     Content: About me, My name's Wenda,  I am a ETH zürich student marjor in Computer Science and interested in Math and Bio stuff.
 
-  socialIcons:
+  # other params...
+  social:
     - name: x
       url: "https://x.com/Dada_325"
     - name: github
