@@ -53,5 +53,12 @@
 &lt;li&gt;
 &lt;p&gt;Using a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model as the backbone, which has shown strong performance on various natural language processing tasks. BERT is a deep bidirectional transformer that learns contextual word representations by jointly conditioning on both left and right context.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>on Gaussian Distribution</title>
+      <link>https://dada325.github.io/dadaBlog/posts/gaussian-distribution/</link>
+      <pubDate>Sun, 17 Mar 2024 12:58:05 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/gaussian-distribution/</guid>
+      <description>Gaussian distribution</description>
+    </item>
   </channel>
 </rss>
