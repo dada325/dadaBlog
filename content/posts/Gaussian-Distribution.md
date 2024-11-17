@@ -101,10 +101,9 @@ $$ L(\boldsymbol{\mu},\boldsymbol{\Sigma}|\mathbf{X}) = \prod\_{i=1}^N \frac{1}{
 
 Taking the natural logarithm simplifies our optimization:
 
-$$ \begin{align*}
-\ln L &= \sum_{i=1}^N \ln\left[\frac{1}{(2\pi)^{D/2}|\boldsymbol{\Sigma}|^{1/2}}\exp\left(-\frac{1}{2}(\mathbf{x}_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu})\right)\right] \\
-&= -\frac{ND}{2}\ln(2\pi) - \frac{N}{2}\ln|\boldsymbol{\Sigma}| - \frac{1}{2}\sum_{i=1}^N(\mathbf{x}_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu})
-\end{align*} $$
+$$ \frac{\partial \ln L}{\partial \boldsymbol{\mu}} = \frac{1}{2}\sum\_{i=1}^N 2\boldsymbol{\Sigma}^{-1}(\mathbf{x}\_i-\boldsymbol{\mu}) $$
+
+$$ = \boldsymbol{\Sigma}^{-1}\sum\_{i=1}^N(\mathbf{x}\_i-\boldsymbol{\mu}) $$
 
 This transformation:
 
@@ -116,11 +115,9 @@ This transformation:
 
 Taking the derivative with respect to μ:
 
-$$ \begin{align*}
-\frac{\partial \ln L}{\partial \boldsymbol{\mu}} &= \frac{1}{2}\sum_{i=1}^N 2\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu}) \\
-&= \boldsymbol{\Sigma}^{-1}\sum_{i=1}^N(\mathbf{x}_i-\boldsymbol{\mu})
-\end{align*} $$
+$$ \frac{\partial \ln L}{\partial \boldsymbol{\mu}} = \frac{1}{2}\sum\_{i=1}^N 2\boldsymbol{\Sigma}^{-1}(\mathbf{x}\_i-\boldsymbol{\mu}) $$
 
+$$ = \boldsymbol{\Sigma}^{-1}\sum\_{i=1}^N(\mathbf{x}\_i-\boldsymbol{\mu}) $$
 Key points:
 
 - The derivative of the quadratic form yields a linear term
