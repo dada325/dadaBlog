@@ -25,7 +25,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "https://unsplash.com/photos/a-black-and-white-photo-of-a-pattern-4cBVro7SHLs" # image path/url
+    image: "https://unsplash.com/photos/a-black-and-white-photo-of-a-pattern-4cBVro7SHLs" 
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -35,6 +35,8 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+<img src="https://unsplash.com/photos/a-black-and-white-photo-of-a-pattern-4cBVro7SHLs" />
 
 ## The Fundamental Role of Gaussian Distribution in Machine Learning
 
@@ -62,30 +64,143 @@ The central limit theorem underscores the Gaussian distribution's fundamental im
 
 In statistical learning, the Gaussian distribution forms the basis for many parameter estimation techniques. Maximum likelihood estimation under Gaussian assumptions leads to elegant closed-form solutions for many problems. The mathematical tractability of Gaussian distributions simplifies many complex calculations in statistical inference.
 
-### Advanced Learning Models
+### Preliminaries and Notation
 
-Modern machine learning leverages Gaussian distributions in sophisticated ways. Gaussian processes provide a powerful framework for probabilistic modeling, while variational inference methods often employ Gaussian approximations for posterior distributions. These applications demonstrate the distribution's versatility in both theoretical and practical contexts.
+Let's establish our mathematical framework:
 
-## Real-World Applications
+- X = {x₁, ..., xₙ}: N independent observations
+- xᵢ ∈ ℝᵈ: Each observation is a D-dimensional vector
+- μ ∈ ℝᵈ: Mean vector (unknown parameter)
+- Σ ∈ ℝᵈˣᵈ: Covariance matrix (unknown parameter)
 
-### Scientific Research
+## Detailed Derivation
 
-The Gaussian distribution naturally emerges in various scientific phenomena. From measurement errors in physics to genetic variations in biology, the normal distribution provides a reliable model for understanding natural variability.
+### Step 1: Probability Density Function
 
-### Financial Modeling
+The multivariate Gaussian PDF is given by:
 
-In quantitative finance, Gaussian distributions play a crucial role in risk assessment and portfolio optimization. The Black-Scholes option pricing model, a fundamental tool in financial mathematics, relies heavily on Gaussian assumptions.
+$$ p(\mathbf{x}|\boldsymbol{\mu},\boldsymbol{\Sigma}) = \frac{1}{(2\pi)^{D/2}|\boldsymbol{\Sigma}|^{1/2}}\exp\left(-\frac{1}{2}(\mathbf{x}-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu})\right) $$
 
-## Implementation Considerations
+This expression contains three key components:
 
-When implementing Gaussian-based models, careful attention must be paid to numerical stability and computational efficiency. Modern software libraries provide optimized implementations of Gaussian computations, making it practical to work with high-dimensional data.
+1. Normalization constant: $(2\pi)^{D/2}|\boldsymbol{\Sigma}|^{1/2}$
+2. Mahalanobis distance: $(\mathbf{x}-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu})$
+3. Exponential function that ensures non-negativity
 
-## Future Directions
+### Step 2: Likelihood Function Construction
 
-The ongoing development of machine learning continues to find new applications for Gaussian distributions. From deep probabilistic models to advanced Bayesian methods, researchers are expanding the ways in which Gaussian distributions can be used to solve complex problems.
+Due to independence of observations, we multiply individual probabilities:
 
-## Conclusion
+$$ L(\boldsymbol{\mu},\boldsymbol{\Sigma}|\mathbf{X}) = \prod\_{i=1}^N p(\mathbf{x}\_i|\boldsymbol{\mu},\boldsymbol{\Sigma}) $$
 
-The Gaussian distribution's combination of mathematical tractability and empirical relevance makes it an essential tool in machine learning. Understanding its properties and applications is crucial for anyone working in data science or statistical modeling.
+This gives:
 
-This framework provides a comprehensive yet accessible treatment of Gaussian distributions in machine learning, balancing theoretical rigor with practical applications. The mathematical expressions maintain precision while the surrounding text explains concepts in clear, natural language.
+$$ L(\boldsymbol{\mu},\boldsymbol{\Sigma}|\mathbf{X}) = \prod\_{i=1}^N \frac{1}{(2\pi)^{D/2}|\boldsymbol{\Sigma}|^{1/2}}\exp\left(-\frac{1}{2}(\mathbf{x}\_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}\_i-\boldsymbol{\mu})\right) $$
+
+### Step 3: Log-Likelihood Transformation
+
+Taking the natural logarithm simplifies our optimization:
+
+$$
+\begin{align*}
+\ln L &= \sum_{i=1}^N \ln\left[\frac{1}{(2\pi)^{D/2}|\boldsymbol{\Sigma}|^{1/2}}\exp\left(-\frac{1}{2}(\mathbf{x}_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu})\right)\right] \\
+&= -\frac{ND}{2}\ln(2\pi) - \frac{N}{2}\ln|\boldsymbol{\Sigma}| - \frac{1}{2}\sum_{i=1}^N(\mathbf{x}_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu})
+\end{align*}
+$$
+
+This transformation:
+
+- Converts products to sums
+- Simplifies the exponential terms
+- Makes derivatives more tractable
+
+### Step 4: Mean Vector Optimization
+
+Taking the derivative with respect to μ:
+
+$$
+\begin{align*}
+\frac{\partial \ln L}{\partial \boldsymbol{\mu}} &= \frac{1}{2}\sum_{i=1}^N 2\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu}) \\
+&= \boldsymbol{\Sigma}^{-1}\sum_{i=1}^N(\mathbf{x}_i-\boldsymbol{\mu})
+\end{align*}
+$$
+
+Key points:
+
+- The derivative of the quadratic form yields a linear term
+- Σ⁻¹ is symmetric, simplifying the derivation
+
+### Step 5: Mean Vector Solution
+
+Setting the derivative to zero:
+
+$$ \boldsymbol{\Sigma}^{-1}\sum\_{i=1}^N(\mathbf{x}\_i-\boldsymbol{\mu}) = \mathbf{0} $$
+
+Since Σ is positive definite (hence invertible):
+
+$$ \hat{\boldsymbol{\mu}}_{MLE} = \frac{1}{N}\sum_{i=1}^N \mathbf{x}\_i $$
+
+This shows that the MLE of the mean is the sample average.
+
+### Step 6: Covariance Matrix Optimization
+
+The derivative with respect to Σ requires matrix calculus:
+
+$$
+\begin{align*}
+\frac{\partial \ln L}{\partial \boldsymbol{\Sigma}} &= -\frac{N}{2}\boldsymbol{\Sigma}^{-1} + \frac{1}{2}\sum_{i=1}^N\boldsymbol{\Sigma}^{-1}(\mathbf{x}_i-\boldsymbol{\mu})(\mathbf{x}_i-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}
+\end{align*}
+$$
+
+Important matrix calculus rules used:
+
+- $\frac{\partial}{\partial \mathbf{A}} \ln|\mathbf{A}| = (\mathbf{A}^{-1})^T$
+- $\frac{\partial}{\partial \mathbf{A}} \mathbf{x}^T\mathbf{A}^{-1}\mathbf{x} = -(\mathbf{A}^{-1}\mathbf{xx}^T\mathbf{A}^{-1})^T$
+
+### Step 7: Covariance Matrix Solution
+
+Setting the derivative to zero and solving:
+
+$$ \hat{\boldsymbol{\Sigma}}_{MLE} = \frac{1}{N}\sum_{i=1}^N(\mathbf{x}\_i-\hat{\boldsymbol{\mu}})(\mathbf{x}\_i-\hat{\boldsymbol{\mu}})^T $$
+
+This is the sample covariance matrix.
+
+## Implementation and Practical Considerations
+
+```python
+import numpy as np
+
+def multivariate_gaussian_mle(X: np.ndarray) -> tuple:
+    """
+    Compute MLE for multivariate Gaussian distribution
+
+    Args:
+        X: Data matrix of shape (N, D)
+            N: number of samples
+            D: dimension of each sample
+
+    Returns:
+        tuple: (mu_hat, sigma_hat)
+            mu_hat: MLE of mean vector (D,)
+            sigma_hat: MLE of covariance matrix (D, D)
+    """
+    # Sample size and dimension
+    N, D = X.shape
+
+    # Mean estimation
+    mu_hat = np.mean(X, axis=0)
+
+    # Covariance estimation
+    centered_X = X - mu_hat
+    sigma_hat = (centered_X.T @ centered_X) / N
+
+    return mu_hat, sigma_hat
+```
+
+### Numerical Stability Considerations:
+
+1. For high-dimensional data, compute the centered data matrix first
+2. Use numerically stable algorithms for matrix operations
+3. Check for positive definiteness of the estimated covariance matrix
+
+This detailed derivation provides the mathematical foundation for understanding multivariate Gaussian parameter estimation, which is crucial in many machine learning applications.
