@@ -158,38 +158,6 @@ $$ \hat{\boldsymbol{\Sigma}}_{MLE} = \frac{1}{N}\sum_{i=1}^N(\mathbf{x}\_i-\hat{
 
 This is the sample covariance matrix.
 
-## Implementation and Practical Considerations
-
-```python
-import numpy as np
-
-def multivariate_gaussian_mle(X: np.ndarray) -> tuple:
-    """
-    Compute MLE for multivariate Gaussian distribution
-
-    Args:
-        X: Data matrix of shape (N, D)
-            N: number of samples
-            D: dimension of each sample
-
-    Returns:
-        tuple: (mu_hat, sigma_hat)
-            mu_hat: MLE of mean vector (D,)
-            sigma_hat: MLE of covariance matrix (D, D)
-    """
-    # Sample size and dimension
-    N, D = X.shape
-
-    # Mean estimation
-    mu_hat = np.mean(X, axis=0)
-
-    # Covariance estimation
-    centered_X = X - mu_hat
-    sigma_hat = (centered_X.T @ centered_X) / N
-
-    return mu_hat, sigma_hat
-```
-
 ### Numerical Stability Considerations:
 
 1. For high-dimensional data, compute the centered data matrix first
