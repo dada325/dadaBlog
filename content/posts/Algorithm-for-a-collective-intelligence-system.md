@@ -3,7 +3,7 @@ title: "Algorithm for a Collective Intelligence System"
 date: 2024-09-15T12:01:06+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: []
+tags: ["AI"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -44,7 +44,7 @@ editPost:
 
 ## 2. The algorithm survey
 
-- In this chapter, we will survey the existing algorithms for the collective intelligence system. We will start from the basic algorithms, and then we will move to the advanced algorithms. We will also discuss the pros and cons of each algorithm. on the journey, we will probably seeing the 
+- In this chapter, we will survey the existing algorithms for the collective intelligence system. We will start from the basic algorithms, and then we will move to the advanced algorithms. We will also discuss the pros and cons of each algorithm. on the journey, we will probably seeing the
 
 ## 3. The algorithm
 

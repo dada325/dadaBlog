@@ -3,7 +3,7 @@ title: "BiomedParse Review"
 date: 2024-06-06T12:54:20+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["LLM"]
+tags: ["LLM","Bioinformatics"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true

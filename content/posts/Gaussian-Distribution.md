@@ -3,7 +3,7 @@ title: "on Gaussian Distribution"
 date: 2024-03-17T12:58:05+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: []
+tags: ["Mathematics"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true

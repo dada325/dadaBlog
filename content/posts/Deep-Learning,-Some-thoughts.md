@@ -3,7 +3,7 @@ title: "Deep Learning, Some Thoughts"
 date: 2024-09-12T14:06:46+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: []
+tags: ["Deep Learning","AI"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true

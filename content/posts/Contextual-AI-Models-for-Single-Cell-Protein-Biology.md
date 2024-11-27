@@ -3,7 +3,7 @@ title: "Contextual AI Models for Single Cell Protein Biology"
 date: 2024-07-28T05:26:29+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: []
+tags: ["AI","Computational Biology","Bioinformatics"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true
