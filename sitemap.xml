@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dada325.github.io/dadaBlog/tags/development/</loc>
+    <lastmod>2024-11-14T17:05:47+08:00</lastmod>
+  </url><url>
     <loc>https://dada325.github.io/dadaBlog/</loc>
     <lastmod>2024-11-14T17:05:47+08:00</lastmod>
   </url><url>
@@ -11,11 +14,26 @@
     <loc>https://dada325.github.io/dadaBlog/posts/</loc>
     <lastmod>2024-11-14T17:05:47+08:00</lastmod>
   </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/</loc>
+    <lastmod>2024-11-14T17:05:47+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/ai/</loc>
+    <lastmod>2024-09-15T12:01:06+08:00</lastmod>
+  </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/algorithm-for-a-collective-intelligence-system/</loc>
     <lastmod>2024-09-15T12:01:06+08:00</lastmod>
   </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/deep-learning/</loc>
+    <lastmod>2024-09-12T14:06:46+08:00</lastmod>
+  </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</loc>
     <lastmod>2024-09-12T14:06:46+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/bioinformatics/</loc>
+    <lastmod>2024-07-28T05:26:29+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/computational-biology/</loc>
+    <lastmod>2024-07-28T05:26:29+08:00</lastmod>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/contextual-ai-models-for-single-cell-protein-biology/</loc>
     <lastmod>2024-07-28T05:26:29+08:00</lastmod>
@@ -26,17 +44,14 @@
     <loc>https://dada325.github.io/dadaBlog/tags/llm/</loc>
     <lastmod>2024-06-06T12:54:20+08:00</lastmod>
   </url><url>
-    <loc>https://dada325.github.io/dadaBlog/tags/</loc>
-    <lastmod>2024-06-06T12:54:20+08:00</lastmod>
-  </url><url>
-    <loc>https://dada325.github.io/dadaBlog/tags/bioinformatics/</loc>
-    <lastmod>2024-04-12T14:48:36+08:00</lastmod>
-  </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/cancer-genomes-3d/</loc>
     <lastmod>2024-04-12T14:48:36+08:00</lastmod>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/tags/genomics-epigenomics/</loc>
     <lastmod>2024-04-12T14:48:36+08:00</lastmod>
+  </url><url>
+    <loc>https://dada325.github.io/dadaBlog/tags/mathematics/</loc>
+    <lastmod>2024-03-17T12:58:05+08:00</lastmod>
   </url><url>
     <loc>https://dada325.github.io/dadaBlog/posts/gaussian-distribution/</loc>
     <lastmod>2024-03-17T12:58:05+08:00</lastmod>

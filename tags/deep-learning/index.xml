@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep Learning on Math, Bio, Programming</title>
+    <link>https://dada325.github.io/dadaBlog/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Math, Bio, Programming</description>
+    <image>
+      <title>Math, Bio, Programming</title>
+      <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Sep 2024 14:06:46 +0800</lastBuildDate>
+    <atom:link href="https://dada325.github.io/dadaBlog/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning, Some Thoughts</title>
+      <link>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</link>
+      <pubDate>Thu, 12 Sep 2024 14:06:46 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/deep-learning-some-thoughts/</guid>
+      <description>Deep learning, some thoughts</description>
+    </item>
+  </channel>
+</rss>
