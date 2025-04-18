@@ -3,7 +3,7 @@ title: "Higher Genus RiemannRoch and the Geometry of Curves"
 date: 2023-04-19T07:20:51+08:00
 # weight: 1
 # aliases: ["/first"]
-tags: [Math],[Algebraic Geometry],[Moduli Spaces],[Curves],[Riemann-Roch]
+tags: ["Math","Algebraic Geometry","Moduli Spaces","Curves","Riemann-Roch"]
 author: dada
 # author: ["Me", "You"] # multiple authors
 showToc: true
