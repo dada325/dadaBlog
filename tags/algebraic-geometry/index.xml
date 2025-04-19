@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algebraic Geometry on Math, Bio, Programming</title>
+    <link>https://dada325.github.io/dadaBlog/tags/algebraic-geometry/</link>
+    <description>Recent content in Algebraic Geometry on Math, Bio, Programming</description>
+    <image>
+      <title>Math, Bio, Programming</title>
+      <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2023 07:20:51 +0800</lastBuildDate>
+    <atom:link href="https://dada325.github.io/dadaBlog/tags/algebraic-geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Higher Genus RiemannRoch and the Geometry of Curves</title>
+      <link>https://dada325.github.io/dadaBlog/posts/higher-genus-riemannroch-and-the-geometry-of-curves/</link>
+      <pubDate>Wed, 19 Apr 2023 07:20:51 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/higher-genus-riemannroch-and-the-geometry-of-curves/</guid>
+      <description>Higher genus riemann roch and the geometry of curves</description>
+    </item>
+  </channel>
+</rss>

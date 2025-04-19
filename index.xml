@@ -9,7 +9,7 @@
       <url>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dada325.github.io/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.146.5</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Nov 2024 17:05:47 +0800</lastBuildDate>
     <atom:link href="https://dada325.github.io/dadaBlog/index.xml" rel="self" type="application/rss+xml" />
@@ -52,6 +52,13 @@
       <pubDate>Sun, 17 Mar 2024 12:58:05 +0800</pubDate>
       <guid>https://dada325.github.io/dadaBlog/posts/gaussian-distribution/</guid>
       <description>Gaussian distribution</description>
+    </item>
+    <item>
+      <title>Higher Genus RiemannRoch and the Geometry of Curves</title>
+      <link>https://dada325.github.io/dadaBlog/posts/higher-genus-riemannroch-and-the-geometry-of-curves/</link>
+      <pubDate>Wed, 19 Apr 2023 07:20:51 +0800</pubDate>
+      <guid>https://dada325.github.io/dadaBlog/posts/higher-genus-riemannroch-and-the-geometry-of-curves/</guid>
+      <description>Higher genus riemann roch and the geometry of curves</description>
     </item>
     <item>
       <title>Converting Integrals to Series</title>
