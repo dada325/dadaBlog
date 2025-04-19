@@ -41,6 +41,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  mathjax: true  # 所有文章自动加载 MathJax
 
   assets:
     disableHLJS: true # to disable highlight.js
@@ -156,3 +157,5 @@ outputs:
 ignoreLogs:
   - "warning-partial-superfluous-prefix"
   - "warning-goldmark-raw-html"
+
+
