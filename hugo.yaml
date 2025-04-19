@@ -151,3 +151,8 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+    
+ignoreLogs:
+  - "warning-partial-superfluous-prefix"
+  - "warning-goldmark-raw-html"

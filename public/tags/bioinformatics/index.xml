@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bioinformatics on Math, Bio, Programming</title>
+    <link>http://localhost:1313/dadaBlog/tags/bioinformatics/</link>
+    <description>Recent content in Bioinformatics on Math, Bio, Programming</description>
+    <image>
+      <title>Math, Bio, Programming</title>
+      <url>http://localhost:1313/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/dadaBlog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.146.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jul 2024 05:26:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/dadaBlog/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contextual AI Models for Single Cell Protein Biology</title>
+      <link>http://localhost:1313/dadaBlog/posts/contextual-ai-models-for-single-cell-protein-biology/</link>
+      <pubDate>Sun, 28 Jul 2024 05:26:29 +0800</pubDate>
+      <guid>http://localhost:1313/dadaBlog/posts/contextual-ai-models-for-single-cell-protein-biology/</guid>
+      <description>Contextual ai models for single cell protein biology</description>
+    </item>
+    <item>
+      <title>BiomedParse Review</title>
+      <link>http://localhost:1313/dadaBlog/posts/bioparse-review/</link>
+      <pubDate>Thu, 06 Jun 2024 12:54:20 +0800</pubDate>
+      <guid>http://localhost:1313/dadaBlog/posts/bioparse-review/</guid>
+      <description>&lt;h2 id=&#34;biomedparse&#34;&gt;BiomedParse&lt;/h2&gt;
+&lt;h2 id=&#34;1-model-selection-and-architecture&#34;&gt;1. Model Selection and Architecture&lt;/h2&gt;
+&lt;p&gt;BiomedParse is a transformer-based language model specifically designed for parsing biomedical text into structured representations. The key architectural choices are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Using a pre-trained BERT (Bidirectional Encoder Representations from Transformers) model as the backbone, which has shown strong performance on various natural language processing tasks. BERT is a deep bidirectional transformer that learns contextual word representations by jointly conditioning on both left and right context.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cancer Genomes 3D</title>
+      <link>http://localhost:1313/dadaBlog/posts/cancer-genomes-3d/</link>
+      <pubDate>Fri, 12 Apr 2024 14:48:36 +0800</pubDate>
+      <guid>http://localhost:1313/dadaBlog/posts/cancer-genomes-3d/</guid>
+      <description>Cancer genomes 3d</description>
+    </item>
+  </channel>
+</rss>
