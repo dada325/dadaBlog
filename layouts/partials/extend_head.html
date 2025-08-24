@@ -1,0 +1,5 @@
+{{- if .Params.mathjax }}
+{{- partial "mathjax.html" . }}
+{{- else if .Site.Params.mathjax }}
+{{- partial "mathjax.html" . }}
+{{- end }}
